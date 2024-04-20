@@ -11,12 +11,15 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "prettier": "^3.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "vite-plugin-checker": "^0.6.4"
   },
   "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
