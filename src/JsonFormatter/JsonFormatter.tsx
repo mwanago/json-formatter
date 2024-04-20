@@ -1,4 +1,4 @@
-import useJsonFormatter from './useJsonFormatter';
+import { useJsonFormatter } from './useJsonFormatter';
 
 export const JsonFormatter = () => {
   const { handleJsonFile, error } = useJsonFormatter();
