@@ -13,7 +13,7 @@ export const JsonFormatter = () => {
       <label htmlFor="json-file-input">Choose a valid JSON file</label>
       <input id="json-file-input" type="file" onChange={handleJsonFile} />
       {error && (
-        <p data-testid="error-indicator" style={{ color: 'red' }}>
+        <p data-testid="error-message" style={{ color: 'red' }}>
           {error}
         </p>
       )}
