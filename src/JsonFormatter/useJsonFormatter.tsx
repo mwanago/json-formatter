@@ -14,7 +14,7 @@ export function useJsonFormatter() {
     const url = URL.createObjectURL(blob);
 
     anchor.setAttribute('href', url);
-    anchor.setAttribute('download', `${fileName}_formatted`);
+    anchor.setAttribute('download', fileName);
     anchor.click();
   };
 
